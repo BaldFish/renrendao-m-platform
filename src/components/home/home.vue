@@ -129,6 +129,9 @@
           text-align center
           font-size 0
           margin-bottom 43px
+          img{
+            width 446px
+          }
         }
         .text{
           box-sizing border-box
@@ -156,6 +159,9 @@
         padding-top 0
         h3{
           margin-bottom 20px
+          img{
+            width 178px
+          }
         }
         p{
           width 685px
