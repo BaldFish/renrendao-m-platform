@@ -10,13 +10,15 @@
         <div class="android">
           <img src="./images/Android.png" alt="">
           <p>Android版人人道</p>
+          <a class="download" href="https://wallet-1255690364.cos.ap-chengdu.myqcloud.com/wallet_release.apk">点击下载</a>
         </div>
         <div class="gongzhonghao">
           <img src="./images/gongzhonghao.png" alt="">
           <p>人人道公众号</p>
+          <a class="download" href="javascript:void(0)">扫码访问</a>
         </div>
       </div>
-      <div class="about" >
+      <div class="about">
         <h3><img src="./images/about.png" alt=""></h3>
         <ul class="text">
           <li>
@@ -30,7 +32,7 @@
           </li>
         </ul>
       </div>
-      <div class="about explain" >
+      <div class="about explain">
         <h3><img src="./images/explain.png" alt=""></h3>
         <p>人人道，全球首款集结积分、资产、身份为一体的基于区块链技
           术的新型移动端应用。</p>
@@ -91,7 +93,7 @@
         box-sizing border-box
         margin 0 auto
         width: 650px;
-        height: 350px;
+        height: 430px;
         background-color: #ffffff;
         box-shadow: -5px 1px 26px 1px rgba(0, 0, 0, 0.11);
         border-radius: 50px;
@@ -116,24 +118,49 @@
           p {
             margin-top 24px;
           }
+          
+          .download {
+            display inline-block
+            box-sizing border-box
+            width: 200px;
+            height: 64px;
+            line-height 64px
+            border-radius: 30px;
+            background-color: #5226f3;
+            border: solid 1px #5226f3; /*no*/
+            color #ffffff
+            font-size: 28px; /*px*/
+            margin-top 30px
+          }
         }
         
         .android {
-          margin-right 130px
+          margin-right 112px
+        }
+        
+        .gongzhonghao {
+          .download {
+            background-color: #ffffff;
+            color #5226f3
+          }
         }
       }
-      .about{
-        padding-top 310px
+      
+      .about {
+        padding-top 390px
         padding-bottom 68px
-        h3{
+        
+        h3 {
           text-align center
           font-size 0
           margin-bottom 43px
-          img{
+          
+          img {
             width 446px
           }
         }
-        .text{
+        
+        .text {
           box-sizing border-box
           margin 0 auto
           padding 40px 50px
@@ -142,28 +169,34 @@
           background-color: #ffffff;
           box-shadow: -5px 1px 26px 1px rgba(0, 0, 0, 0.11);
           border-radius: 50px;
-          border: solid 1px #eeeeee;/*no*/
-          li{
+          border: solid 1px #eeeeee; /*no*/
+          
+          li {
             font-family: SourceHanSansCN-Regular;
             color #333333
             line-height 46px;
-            font-size 22px;/*px*/
-            span{
+            font-size 22px; /*px*/
+            
+            span {
               font-family: SourceHanSansCN-Medium;
-              font-size 30px;/*px*/
+              font-size 30px; /*px*/
             }
           }
         }
       }
-      .explain{
+      
+      .explain {
         padding-top 0
-        h3{
+        
+        h3 {
           margin-bottom 20px
-          img{
+          
+          img {
             width 178px
           }
         }
-        p{
+        
+        p {
           width 685px
           margin 0 auto
           text-align center
@@ -172,10 +205,12 @@
           line-height 32px
           margin-bottom 40px
         }
-        .text{
-          li{
+        
+        .text {
+          li {
             font-size 0
-            i{
+            
+            i {
               display inline-block
               background-color: #5226f3;
               width 16px
@@ -185,10 +220,11 @@
               margin-top 8px
               margin-right 18px
             }
-            span{
+            
+            span {
               display inline-block
               width 524px
-              font-size 22px;/*px*/
+              font-size 22px; /*px*/
               line-height 30px
               font-family: SourceHanSansCN-Regular;
             }
