@@ -49,6 +49,9 @@
         </ul>
       </div>
     </div>
+    <div class="home_footer">
+      <a href="http://www.beian.miit.gov.cn/">备案号 粤ICP备19004762号-2</a>
+    </div>
   </div>
 </template>
 
@@ -230,6 +233,16 @@
             }
           }
         }
+      }
+    }
+    .home_footer{
+      width 100%
+      height 80px
+      line-height 80px
+      text-align center
+      background-color: #222426;
+      a{
+        color #ffffff
       }
     }
   }
